@@ -18,19 +18,31 @@ def generate_token(client_id, gcm_sender_id, project_id, api_key):
 
     payload = {
 
-        "iss": client_id,
+       "aud": api_key,
 
-        "sub": client_id,
+      "iss": client_id,
 
-        "aud": "https://identitytoolkit.googleapis.com/google.identity.identitytoolkit.v1.IdentityToolkit",
+    "sub": reversed_client_id,
 
-        "iat": now,
+    "gcm.sender": gcm_sender_id,
 
-        "exp": exp_time,
+    "iat": 0,
 
-        "uid": "1",
+    "exp": 0xFFFFFFFF,
 
-        "claims": {
+    "iss": project_id,
+
+    "auth_time": 0,
+
+    "sub": bundle_id,
+
+    "firebase": {
+
+        "identities": {},
+
+        "sign_in_provider": "custom",
+
+        "storage_bucket": storage_bucket
 
             "kid": "p256",
 
