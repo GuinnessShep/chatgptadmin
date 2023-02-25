@@ -1,3 +1,5 @@
+Use any Python, GO or whatever you're familiar with, to have Firebase generate a token based on the below creds.
+
 Firebase Offline Token Gen data:
 CLIENT_ID: 568928957521-m57oil8lfnf2qlq6jnq4blp1ljcq4bc8.apps.googleusercontent.com
 REVERSED_CLIENT_ID: com.googleusercontent.apps.568928957521-m57oil8lfnf2qlq6jnq4blp1ljcq4bc8
@@ -9,8 +11,7 @@ STORAGE_BUCKET: aichat-4fb19.appspot.com -> :))))
 GOOGLE_APP_ID: 1:568928957521:ios:14ccbf85a464137f73f470
 
 
-Use any Python, GO or whatever you know with Firebase to generate a token based on that info above.
-Than POST to the us-central1-chatbot-e10c8.cloudfunctions.net/chatbot JSON Format as bellow POST Data example:
+Then POST to the bot, us-central1-chatbot-e10c8.cloudfunctions.net/chatbot using the following JSON POST Data format example bellow:
 
 POST /chatbot HTTP/2
 Host: us-central1-chatbot-e10c8.cloudfunctions.net
