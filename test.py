@@ -27,7 +27,7 @@ def generate_token(client_id, gcm_sender_id, project_id, api_key):
     # Sign the token using the API key
     token = jwt.encode(payload, api_key, algorithm="HS256")
 
-    return token.decode()
+    return token
 
 
 def send_message(token, message):
