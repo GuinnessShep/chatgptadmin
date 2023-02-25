@@ -18,25 +18,25 @@ def generate_token(client_id, gcm_sender_id, project_id, api_key):
 
     payload = {
 
-       "aud": api_key,
+        "aud": api_key,
 
-      "iss": client_id,
+        "iss": client_id,
 
-    "sub": reversed_client_id,
+        "sub": reversed_client_id,
 
-    "gcm.sender": gcm_sender_id,
+        "gcm.sender": gcm_sender_id,
 
-    "iat": 0,
+        "iat": 0,
 
-    "exp": 0xFFFFFFFF,
+        "exp": 0xFFFFFFFF,
 
-    "iss": project_id,
+        "iss": project_id,
 
-    "auth_time": 0,
+        "auth_time": 0,
 
-    "sub": bundle_id,
+        "sub": bundle_id,
 
-    "firebase": {
+        "firebase": {
 
         "identities": {},
 
