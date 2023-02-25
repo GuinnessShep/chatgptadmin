@@ -1,0 +1,11 @@
+certifi==2021.5.30
+chardet==4.0.0
+firebase-admin==5.0.1
+idna==3.3
+protobuf==3.19.3
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+requests==2.26.0
+rsa==4.7.2
+six==1.16.0
+urllib3==1.26.6
