@@ -23,7 +23,7 @@ GOOGLE_APP_ID: 1:568928957521:ios:14ccbf85a464137f73f470
 #
 #
 #
-Then POST to the chatbot, us-central1-chatbot-e10c8.cloudfunctions.net/chatbot JSON Format as bellow POST Data example:
+Then POST to the chatbot, us-central1-chatbot-e10c8.cloudfunctions.net/chatbot using the JSON POST Data Format bellow as an example:
 #
 #
 POST /chatbot HTTP/2
