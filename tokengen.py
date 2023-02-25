@@ -21,7 +21,7 @@ payload = {
     }
 }
 # Encode the payload and sign with the server key
-token = jwt.encode(payload, SERVER_KEY, algorithm="HS256")
+token = jwt.encode(payload, algorithm="HS256")
 # Convert token to string
 token_str = token.decode("utf-8")
 
