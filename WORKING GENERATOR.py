@@ -58,8 +58,3 @@ if __name__ == "__main__":
     # Generate a token
     token = generate_token(client_id, gcm_sender_id, project_id, api_key)
     print(f"Generated token: {token}")
-
-    # Send a message using the token
-    message = "Hello, ChatGPT!"
-    response = send_message(token, message)
-    print(response)
