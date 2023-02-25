@@ -32,7 +32,15 @@ custom_token = {
 # Generate the Firebase token using the custom token
 response = requests.post(url, json={"token": custom_token}).json()
 
-# Extract the Firebase token from the response
-firebase_token = response["idToken"]
+# Check if the response contains an error message
+if "error" in response:
+    print(f"Error: {response['error']['message']}")
+else:
+    # Extract the Firebase token from the response
+    firebase_token = response.get("idToken")
 
-print(firebase_token)
+    # Check if the Firebase token is present
+    if firebase_token:
+        print(firebase_token)
+    else:
+        print("Firebase token not found in response.")
