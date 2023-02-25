@@ -1,0 +1,22 @@
+{
+    "firebase_config": {
+        "apiKey": "AIzaSyCm99fk0vDQlgXMgTM9fzlqXiQWHpdOMKA",
+        "authDomain": "aichat-4fb19.firebaseapp.com",
+        "databaseURL": "https://aichat-4fb19.firebaseio.com",
+        "projectId": "aichat-4fb19",
+        "storageBucket": "aichat-4fb19.appspot.com",
+        "messagingSenderId": "568928957521",
+        "appId": "1:568928957521:ios:14ccbf85a464137f73f470",
+        "measurementId": "G-KC5S5S5GTM"
+    },
+    "offline_token_gen_data": {
+        "client_id": "568928957521-m57oil8lfnf2qlq6jnq4blp1ljcq4bc8.apps.googleusercontent.com",
+        "reversed_client_id": "com.googleusercontent.apps.568928957521-m57oil8lfnf2qlq6jnq4blp1ljcq4bc8",
+        "api_key": "AIzaSyCm99fk0vDQlgXMgTM9fzlqXiQWHpdOMKA",
+        "gcm_sender_id": "568928957521",
+        "bundle_id": "com.pb.chatgptmac",
+        "project_id": "aichat-4fb19",
+        "storage_bucket": "aichat-4fb19.appspot.com",
+        "google_app_id": "1:568928957521:ios:14ccbf85a464137f73f470"
+    }
+}
