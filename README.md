@@ -1,3 +1,4 @@
+OPENAI CHATGPT + FIREBASE LEAK
 
 
 Use any Python, GO or whatever you're familiar with Firebase to generate a token based on the info below.
